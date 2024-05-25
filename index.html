@@ -54,8 +54,10 @@
                 <span>选择语言：</span>
                 <select class="select">
                     <option value="0"> 切换可看</option>
-                    <option value="1"> 中文解说 1080P</option>
-                    <option value="2"> 中文解说 720P </option>
+                    <option value="1"> B站英文 1080P</option>
+                    <option value="2"> B站中解 1080P</option>
+                    <option value="3"> 腾讯英文 1080P</option>
+                    <option value="4"> 腾讯中解 1080P</option>
                 </select>
             </div>
         </div>
@@ -99,7 +101,9 @@
         switch (val) {
             case '1': changeVideo(videoData.url1); break;
             case '2': changeVideo(videoData.url2); break;
-            default: changeVideo(videoData.url3);
+            case '3': changeVideo(videoData.url1); break;
+            case '4': changeVideo(videoData.url1); break;
+            default: changeVideo(videoData.url5);
         }   <!--丨-->
     })
 </script>
