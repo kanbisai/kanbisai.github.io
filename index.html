@@ -40,12 +40,12 @@
 </head>
 <body">
     <div class="main">
-        <p>【直播】WWE KING AND QUEEN OF THE RING 擂台之王 2024/05/26 01:00</p>
+        <p>【直播】CLASH AT THE CASTLE SCOTLAND 城堡争霸大赛 2024/06/16 02:00</p>
         <div>
             <video id="myVideo" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"
                 data-setup='{}' style='width:100%;height:100%'>
                 <source id="source"
-                    src="https://cn-sdjn-cm-02-08.bilivideo.com/live-bvc/961349/live_23755234_bs_3437085/index.m3u8?expires=1716659686&len=0&oi=1973088808&pt=web&qn=10000&trid=1007369690840ccc4b349f8ccac0c468ec92&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha01&sign=43274312d6947836a78d11f186700a39&sk=a488675aacf1c21fad7c993ee7c73350&flvsk=9b7cc76e8f3c5000705e088d2da04eae&p2p_type=1&sl=1&free_type=0&mid=385212573&sid=cn-sdjn-cm-02-08&chash=0&bmt=1&sche=ban&bvchls=1&score=11&pp=rtmp&source=onetier&trace=941&site=6e7a320d11cc6dc130a48576319be473&zoneid_l=151388163&sid_l=live_23755234_bs_3437085&order=1"
+                    src=""
                     type="application/x-mpegURL">
                 </source>
             </video>
@@ -53,9 +53,8 @@
             <div class="lang">
                 <span>选择语言：</span>
                 <select class="select">
-                    <option value="0"> 切换可看</option>
-                    <option value="1"> B站英文 1080P</option>
-                    <option value="2"> B站中解 1080P</option>
+                    <option value="1"> 英文解说 1080P</option>
+                    <option value="2"> 中文解说 1080P</option>
                 </select>
             </div>
         </div>
@@ -78,8 +77,8 @@
         changeVideo(videoData.url1)
     }
     let videoData = {
-        url1: 'https://cn-sdqd-cu-01-36.bilivideo.com/live-bvc/227751/live_23413452_bs_8893260_4000/index.m3u8?expires=1716658342&len=0&oi=1963548024&pt=web&qn=0&trid=1007baac9e79dda744ec82f06f9301f34bfe&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha01&sign=2d43f5510621c964e5bd27ef7b03efba&sk=e6d0886b02b09fc7eae73c9a94740c39&flvsk=13ed776a0ca222a516d62e27f0db34c5&p2p_type=1&sl=1&free_type=0&mid=1306723374&sid=cn-sdqd-cu-01-36&chash=1&bmt=1&sche=ban&bvchls=1&score=1&pp=rtmp&source=onetier&trace=129&site=f35d6b7c85bdf3b0594aed4b3b0d7b6d&qp=de_0&zoneid_l=151339010&sid_l=stream_name_cold&order=1',
-        url2: 'https://cn-nmghhht-cu-01-13.bilivideo.com/live-bvc/740589/live_23755234_bs_3437085_2500/index.m3u8?expires=1716658319&len=0&oi=1963548024&pt=web&qn=0&trid=10076d4ddc8d0cb94a92b58e265a86a56e2c&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha01&sign=f3b333a8eac55a5c0714529c6f9e009f&sk=f2cdf0f25553bd7b77892de805abf437&flvsk=00ba5532126b0508155999b1e6874f04&p2p_type=1&sl=1&free_type=0&mid=1306723374&sid=cn-nmghhht-cu-01-13&chash=1&bmt=1&sche=ban&bvchls=1&score=11&pp=rtmp&source=onetier&trace=921&site=0e5c1da5e436b3309df1cc5a78a56b21&qp=de_0&zoneid_l=151339010&sid_l=live_23755234_bs_3437085_2500&order=1',  
+        url1: '',
+        url2: '',  
     }
 
     let changeVideo = function (vdoSrc) {
